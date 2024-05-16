@@ -1,0 +1,40 @@
+[33mStarting up http-server, serving [39m[36m./[39m[33m[39m
+[33mAvailable on:[39m
+  http://127.0.0.1:[32m8081[39m
+  http://192.168.18.215:[32m8081[39m
+Hit CTRL-C to stop the server
+[2024-03-18T08:07:43.494Z]  "[36mGET[39m [36m/[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+(node:3290) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2024-03-18T08:07:43.871Z]  "[36mGET[39m [36m/resources/css/index.css[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:07:43.941Z]  "[36mGET[39m [36m/resources/data/magazines.js[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:07:43.945Z]  "[36mGET[39m [36m/resources/js/index.js[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:07:47.740Z]  "[36mGET[39m [36m/[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:07:48.729Z]  "[36mGET[39m [36m/[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:07:54.533Z]  "[36mGET[39m [36m/[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:08:01.431Z]  "[36mGET[39m [36m/[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:08:08.502Z]  "[36mGET[39m [36m/[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:08:09.499Z]  "[36mGET[39m [36m/[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:08:10.498Z]  "[36mGET[39m [36m/[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:08:11.853Z]  "[36mGET[39m [36m/[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[31mhttp-server stopped.[39m
+[33mStarting up http-server, serving [39m[36m./[39m[33m[39m
+[33mAvailable on:[39m
+  http://127.0.0.1:[32m8081[39m
+  http://192.168.18.215:[32m8081[39m
+Hit CTRL-C to stop the server
+[2024-03-18T08:11:04.485Z]  "[36mGET[39m [36m/[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+(node:5029) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2024-03-18T08:11:04.804Z]  "[36mGET[39m [36m/resources/css/index.css[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:11:04.885Z]  "[36mGET[39m [36m/resources/data/magazines.js[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:11:04.887Z]  "[36mGET[39m [36m/resources/js/index.js[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:11:09.048Z]  "[36mGET[39m [36m/[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:11:10.582Z]  "[36mGET[39m [36m/[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:11:16.794Z]  "[36mGET[39m [36m/[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:11:23.755Z]  "[36mGET[39m [36m/[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:11:30.995Z]  "[36mGET[39m [36m/[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:11:32.193Z]  "[36mGET[39m [36m/[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:11:33.161Z]  "[36mGET[39m [36m/[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[2024-03-18T08:11:34.229Z]  "[36mGET[39m [36m/[39m" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.4.0 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36"
+[31mhttp-server stopped.[39m

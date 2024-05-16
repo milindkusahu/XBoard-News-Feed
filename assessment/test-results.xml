@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="30.529" tests="7" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-03-18T08:11:04" tests="0" file="specs/homePageSpec.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Search" timestamp="2024-03-18T08:11:04" tests="7" time="30.469" failures="1">
+    <testcase name="Search Should have at least one accordian in place" time="4.585" classname="Should have at least one accordian in place">
+    </testcase>
+    <testcase name="Search Verify that first accordian is visible on page load" time="1.201" classname="Verify that first accordian is visible on page load">
+    </testcase>
+    <testcase name="Search Verify that first accordian collapses when you click on button" time="6.606" classname="Verify that first accordian collapses when you click on button">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because this element is detached from the DOM.
+
+`&lt;button class=&quot;accordion-button collapsed&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#collapseOne0&quot; aria-expanded=&quot;true&quot; aria-controls=&quot;collapseOne0&quot;&gt;The Lat...&lt;/button&gt;`
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; `cy.its()`
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is detached from the DOM.
+
+`<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne0" aria-expanded="true" aria-controls="collapseOne0">The Lat...</button>`
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > `cy.its()`
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+    at $Cy.ensureAttached (http://localhost:8081/__cypress/runner/cypress_runner.js:163831:76)
+    at runAllChecks (http://localhost:8081/__cypress/runner/cypress_runner.js:150589:12)
+    at retryActionability (http://localhost:8081/__cypress/runner/cypress_runner.js:150669:16)
+    at tryCatcher (http://localhost:8081/__cypress/runner/cypress_runner.js:13196:23)
+    at Function.Promise.attempt.Promise.try (http://localhost:8081/__cypress/runner/cypress_runner.js:10470:29)
+    at whenStable (http://localhost:8081/__cypress/runner/cypress_runner.js:168695:63)
+    at http://localhost:8081/__cypress/runner/cypress_runner.js:168192:14
+    at tryCatcher (http://localhost:8081/__cypress/runner/cypress_runner.js:13196:23)
+    at Promise._settlePromiseFromHandler (http://localhost:8081/__cypress/runner/cypress_runner.js:11131:31)
+    at Promise._settlePromise (http://localhost:8081/__cypress/runner/cypress_runner.js:11188:18)
+    at Promise._settlePromise0 (http://localhost:8081/__cypress/runner/cypress_runner.js:11233:10)
+    at Promise._settlePromises (http://localhost:8081/__cypress/runner/cypress_runner.js:11313:18)
+    at Promise._fulfill (http://localhost:8081/__cypress/runner/cypress_runner.js:11257:18)
+    at http://localhost:8081/__cypress/runner/cypress_runner.js:12871:46
+From Your Spec Code:
+    at Context.eval (http://localhost:8081/__cypress/tests?p=specs/homePageSpec.js:307:48)]]></failure>
+    </testcase>
+    <testcase name="Search Verify first accordian exists" time="0.758" classname="Verify first accordian exists">
+    </testcase>
+    <testcase name="Search Verify that each carousel has 10 cards" time="1.003" classname="Verify that each carousel has 10 cards">
+    </testcase>
+    <testcase name="Search Verify that each carousel-item contains one link followed by an image" time="1.073" classname="Verify that each carousel-item contains one link followed by an image">
+    </testcase>
+    <testcase name="Search pickup the image that refers to thehindi.com and check its href also refers tp the same website." time="0.836" classname="pickup the image that refers to thehindi.com and check its href also refers tp the same website.">
+    </testcase>
+  </testsuite>
+</testsuites>
